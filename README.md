@@ -72,6 +72,3 @@ npm run dev
 
 ---
 
-## 🤝 Contributing
-
-Contributions, ideas, and feedback are welcome! Feel free to open an issue or submit a pull request.
