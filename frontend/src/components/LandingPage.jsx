@@ -275,7 +275,7 @@ export default function LandingPage() {
       <header className="header">
         <div className="logo">
           <span className="logo-icon">✈</span>
-          <span className="logo-text">TravelReady</span>
+          <span className="logo-text">Travel Ready?</span>
         </div>
       </header>
 
