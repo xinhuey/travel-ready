@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Globe } from "../components/Globe";
 import "./LandingPage.css";
 
 const COUNTRIES = [
@@ -271,18 +272,23 @@ export default function LandingPage() {
       <div className="bg-glow bg-glow--1" />
       <div className="bg-glow bg-glow--2" />
 
+      {/* Globe background */}
+      <div className="globe-bg">
+        <Globe />
+      </div>
+
       {/* Header */}
       <header className="header">
         <div className="logo">
           <span className="logo-icon">✈</span>
-          <span className="logo-text">Travel Ready?</span>
+          <span className="logo-text">TravelReady</span>
         </div>
       </header>
 
       {/* Hero */}
       <main className="hero">
         <div className="hero-text">
-          <p className="hero-eyebrow">Ready?</p>
+          <p className="hero-eyebrow">Never miss a document again</p>
           <h1 className="hero-title">
             Your trip,
             <br />
